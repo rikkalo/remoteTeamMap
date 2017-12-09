@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("geo-find").addEventListener("click", geoFindMe);
+});
+
 function geoFindMe() {
     var output = document.getElementById("out");
   
